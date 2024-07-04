@@ -1,0 +1,16 @@
+.header {
+	grid-area: header;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	background-color: var(--mantine-color-white);
+	border-bottom: 1px solid var(--mantine-color-default-border);
+
+	&-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 100%;
+	}
+}

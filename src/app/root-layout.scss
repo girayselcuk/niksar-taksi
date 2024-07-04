@@ -1,0 +1,9 @@
+.root-layout {
+	display: grid;
+	grid-template-areas: "header" "main" "footer";
+	grid-template-rows: 72px 1fr 72px;
+	height: 100%;
+	&-main {
+		grid-area: main;
+	}
+}

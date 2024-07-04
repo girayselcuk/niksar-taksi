@@ -1,0 +1,29 @@
+.navigation-menu {
+	display: flex;
+	align-items: center;
+	gap: var(--mantine-spacing-xl);
+
+	@media (max-width: 768px) {
+		display: none;
+	}
+
+	&-item {
+		font-weight: 600;
+		position: relative;
+	}
+
+	&-item::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: -4px;
+		height: 2px;
+		width: 0%;
+		background-color: var(--mantine-color-yellow-5);
+		transition: 250ms ease;
+	}
+
+	&-item:hover::after {
+		width: 100%;
+	}
+}

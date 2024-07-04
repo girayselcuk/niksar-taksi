@@ -1,0 +1,10 @@
+.gallery {
+	display: flex;
+	flex-direction: column;
+	gap: var(--mantine-spacing-md);
+
+	&-body img {
+		object-fit: cover;
+		border-radius: var(--mantine-radius-default);
+	}
+}

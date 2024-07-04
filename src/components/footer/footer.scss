@@ -1,0 +1,12 @@
+.footer {
+	grid-area: footer;
+	border-top: 1px solid var(--mantine-color-default-border);
+
+	&-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		height: 100%;
+	}
+}
