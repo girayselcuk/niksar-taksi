@@ -1,6 +1,7 @@
 import { Button, Text, Title } from "@mantine/core";
 import "./hero.scss";
 import { IconPhone } from "@tabler/icons-react";
+import Link from "next/link";
 export default function HeroContainer() {
 	return (
 		<section
@@ -19,14 +20,15 @@ export default function HeroContainer() {
 					çıkarın. Taksi hizmetlerimizle yolculuklarınız artık çok
 					daha kolay ve hızlı!
 				</Text>
-
-				<Button
-					color="yellow"
-					mt="md"
-					leftSection={<IconPhone />}
-				>
-					Hemen Ara
-				</Button>
+				<Link href="tel:05421133496">
+					<Button
+						color="yellow"
+						mt="md"
+						leftSection={<IconPhone />}
+					>
+						Hemen Ara
+					</Button>
+				</Link>
 			</div>
 		</section>
 	);
