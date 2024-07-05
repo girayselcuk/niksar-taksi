@@ -26,7 +26,7 @@ export default function HeroContainer() {
 						mt="md"
 						leftSection={<IconPhone />}
 					>
-						Hemen Ara
+						Tıkla Hemen Ara
 					</Button>
 				</Link>
 			</div>

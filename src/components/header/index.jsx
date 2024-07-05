@@ -1,4 +1,4 @@
-import { Button, Container } from "@mantine/core";
+import { Burger, Button, Container } from "@mantine/core";
 import "./header.scss";
 import Image from "next/image";
 import TaxiLogo from "@/assets/icons/taxi.svg";
@@ -23,7 +23,15 @@ export default function Header() {
 
 				<NavigationMenu />
 
-				<Button color="yellow">İletişim</Button>
+				<Button
+					color="yellow"
+					className="header-contact-button"
+				>
+					İletişim
+				</Button>
+				<div className="header-mobile-toggle">
+					<Burger />
+				</div>
 			</Container>
 		</header>
 	);

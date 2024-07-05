@@ -43,7 +43,7 @@ export default function AboutContainer() {
 						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
 							<AboutCard
 								icon={<IconMapPin />}
-								title="Niksar/Tokat"
+								title="Niksar/Tokat Kültür mah."
 							/>
 						</GridCol>
 						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>

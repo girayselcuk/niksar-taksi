@@ -2,6 +2,7 @@
 import "./gallery.scss";
 import { Carousel } from "@mantine/carousel";
 import denemeresim from "@/assets/images/deneme.jpg";
+import taksi1 from "@/assets/images/taksi1.jpg";
 import Image from "next/image";
 import { Text, Title } from "@mantine/core";
 
@@ -41,7 +42,7 @@ export default function GalleryContainer() {
 					</Carousel.Slide>
 					<Carousel.Slide>
 						<Image
-							src={denemeresim}
+							src={taksi1}
 							height={300}
 							quality={100}
 						/>
