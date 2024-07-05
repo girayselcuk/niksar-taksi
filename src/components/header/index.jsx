@@ -23,12 +23,6 @@ export default function Header() {
 
 				<NavigationMenu />
 
-				<Button
-					color="yellow"
-					className="header-contact-button"
-				>
-					İletişim
-				</Button>
 				<div className="header-mobile-toggle">
 					<Burger />
 				</div>

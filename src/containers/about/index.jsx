@@ -5,8 +5,6 @@ import { IconPhone } from "@tabler/icons-react";
 import { IconMapPin } from "@tabler/icons-react";
 import { IconCar } from "@tabler/icons-react";
 import { IconClock } from "@tabler/icons-react";
-import denemeresim from "@/assets/images/deneme.jpg";
-import Image from "next/image";
 export default function AboutContainer() {
 	return (
 		<section
@@ -37,13 +35,13 @@ export default function AboutContainer() {
 						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
 							<AboutCard
 								icon={<IconPhone />}
-								title="05421133496"
+								title="0545 456 00 60"
 							/>
 						</GridCol>
 						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
 							<AboutCard
 								icon={<IconMapPin />}
-								title="Niksar/Tokat Kültür mah."
+								title="GOP mah. Cumhuriyet cd. NO: 149 Niksar/Tokat"
 							/>
 						</GridCol>
 						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
