@@ -22,10 +22,6 @@ export default function Header() {
 				</Link>
 
 				<NavigationMenu />
-
-				<div className="header-mobile-toggle">
-					<Burger />
-				</div>
 			</Container>
 		</header>
 	);

@@ -5,6 +5,8 @@ import { IconPhone } from "@tabler/icons-react";
 import { IconMapPin } from "@tabler/icons-react";
 import { IconCar } from "@tabler/icons-react";
 import { IconClock } from "@tabler/icons-react";
+import { IconCreditCard } from "@tabler/icons-react";
+import { IconMoodSmile } from "@tabler/icons-react";
 export default function AboutContainer() {
 	return (
 		<section
@@ -35,27 +37,54 @@ export default function AboutContainer() {
 						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
 							<AboutCard
 								icon={<IconPhone />}
-								title="0545 456 00 60"
+								title="Telefon"
+								description="0545 456 00 60"
 							/>
 						</GridCol>
 						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
 							<AboutCard
 								icon={<IconMapPin />}
-								title="GOP mah. Cumhuriyet cd. NO: 149 Niksar/Tokat"
+								title="Adres"
+								description={
+									"GOP Mahallesi, Cumhuriyet Caddesi No: 149 Niksar, Tokat"
+								}
 							/>
 						</GridCol>
 						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
 							<AboutCard
 								icon={<IconCar />}
-								title="Konforlu Araç ile Rahat Yolculuk"
+								title="Konforlu Araç"
+								description={
+									"Konforlu araçlarımızla keyifli yolculuklar."
+								}
 							/>
 						</GridCol>
-						<GridCol
-							span={{ base: 12, xs: 12, sm: 6, md: 6, lg: 6 }}
-						>
+						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
 							<AboutCard
 								icon={<IconClock />}
-								title="7/24 Hizmet ile Kesintisiz Ulaşım"
+								title="7/24 Hizmet"
+								description={
+									"Günün her saati, haftanın her günü kesintisiz hizmet veriyoruz."
+								}
+							/>
+						</GridCol>
+						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
+							<AboutCard
+								icon={<IconCreditCard />}
+								title="Kredi Kartı İle Ödeme"
+								description={
+									"Ödemelerinizi kredi kartı ile yapabilirsiniz."
+								}
+							/>
+						</GridCol>
+
+						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
+							<AboutCard
+								icon={<IconMoodSmile />}
+								title="Hızlı Yanıt"
+								description={
+									"Aramalarınıza hızlı dönüşler alabilirsiniz."
+								}
 							/>
 						</GridCol>
 					</Grid>

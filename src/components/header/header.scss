@@ -14,18 +14,8 @@
 		height: 100%;
 	}
 
-	&-contact-button {
-		display: block;
-		@media (max-width: 768px) {
-			display: none;
-		}
-	}
-
-	&-mobile-toggle {
-		display: none;
-
-		@media (max-width: 768px) {
-			display: block;
-		}
+	@media (max-width: 768px) {
+		display: flex;
+		align-items: center;
 	}
 }

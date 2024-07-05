@@ -19,6 +19,7 @@ export const metadata = {
 // Mantine Theme
 const theme = createTheme({
 	defaultRadius: "sm",
+	colors: {},
 });
 
 export default function RootLayout({ children }) {

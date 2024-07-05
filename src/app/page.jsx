@@ -5,12 +5,10 @@ import { Container } from "@mantine/core";
 
 export default function Home() {
 	return (
-		<div>
-			<Container size="lg">
-				<HeroContainer />
-				<AboutContainer />
-				<GalleryContainer />
-			</Container>
-		</div>
+		<Container size="lg">
+			<HeroContainer />
+			<AboutContainer />
+			<GalleryContainer />
+		</Container>
 	);
 }
