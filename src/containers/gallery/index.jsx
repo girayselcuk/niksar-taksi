@@ -6,6 +6,11 @@ import Image from "next/image";
 import { Button, Text, Title } from "@mantine/core";
 
 export default function GalleryContainer() {
+	const imageLoader = ({ src, width, quality }) => {
+		return `https://niksartaksi.com.tr/${src}?w=${width}&q=${
+			quality || 75
+		}`;
+	};
 	return (
 		<section
 			id="gallery"
@@ -33,11 +38,11 @@ export default function GalleryContainer() {
 				>
 					<Carousel.Slide>
 						<Image
-							src={"/images/taksi-1.jpg"}
+							loader={imageLoader}
+							src={"images/taksi-1.jpg"}
 							width={0}
 							height={300}
 							sizes="100vw"
-							objectFit="cover"
 							style={{ width: "100%", height: "100%" }}
 							alt="Niksar | Seymenli Taksi"
 						/>
@@ -45,10 +50,10 @@ export default function GalleryContainer() {
 
 					<Carousel.Slide>
 						<Image
-							src={"/images/taksi-2.jpg"}
+							src={"images/taksi-2.jpg"}
+							loader={imageLoader}
 							width={0}
 							height={0}
-							objectFit="cover"
 							sizes="100vw"
 							style={{ width: "100%", height: "100%" }}
 							alt="Niksar | Seymenli Taksi"
@@ -57,10 +62,10 @@ export default function GalleryContainer() {
 
 					<Carousel.Slide>
 						<Image
-							src={"/images/taksi-3.jpg"}
+							src={"images/taksi-3.jpg"}
+							loader={imageLoader}
 							width={0}
 							height={0}
-							objectFit="cover"
 							sizes="100vw"
 							style={{ width: "100%", height: "100%" }}
 							alt="Niksar | Seymenli Taksi"
@@ -69,10 +74,10 @@ export default function GalleryContainer() {
 
 					<Carousel.Slide>
 						<Image
-							src={"/images/taksi-4.jpg"}
+							src={"images/taksi-4.jpg"}
+							loader={imageLoader}
 							width={0}
 							height={0}
-							objectFit="cover"
 							sizes="100vw"
 							style={{
 								width: "100%",
@@ -84,11 +89,11 @@ export default function GalleryContainer() {
 
 					<Carousel.Slide>
 						<Image
-							src={"/images/taksi-5.jpg"}
+							src={"images/taksi-5.jpg"}
+							loader={imageLoader}
 							width={0}
 							height={0}
 							sizes="100vw"
-							objectFit="cover"
 							style={{ width: "100%", height: "100%" }}
 							alt="Niksar | Seymenli Taksi"
 						/>
@@ -96,11 +101,11 @@ export default function GalleryContainer() {
 
 					<Carousel.Slide>
 						<Image
-							src={"/images/taksi-6.jpg"}
+							src={"images/taksi-6.jpg"}
+							loader={imageLoader}
 							width={0}
 							height={0}
 							sizes="100vw"
-							objectFit="cover"
 							style={{ width: "100%", height: "100%" }}
 							alt="Niksar | Seymenli Taksi"
 						/>
@@ -108,11 +113,11 @@ export default function GalleryContainer() {
 
 					<Carousel.Slide>
 						<Image
-							src={"/images/taksi-7.jpg"}
+							src={"images/taksi-7.jpg"}
+							loader={imageLoader}
 							width={0}
 							height={0}
 							sizes="100vw"
-							objectFit="cover"
 							style={{ width: "100%", height: "100%" }}
 							alt="Niksar | Seymenli Taksi"
 						/>
@@ -120,11 +125,11 @@ export default function GalleryContainer() {
 
 					<Carousel.Slide>
 						<Image
-							src={"/images/taksi-8.jpg"}
+							src={"images/taksi-8.jpg"}
+							loader={imageLoader}
 							width={0}
 							height={0}
 							sizes="100vw"
-							objectFit="cover"
 							style={{ width: "100%", height: "100%" }}
 							alt="Niksar | Seymenli Taksi"
 						/>
@@ -132,11 +137,11 @@ export default function GalleryContainer() {
 
 					<Carousel.Slide>
 						<Image
-							src={"/images/taksi-9.jpg"}
+							src={"images/taksi-9.jpg"}
+							loader={imageLoader}
 							width={0}
 							height={0}
 							sizes="100vw"
-							objectFit="cover"
 							style={{ width: "100%", height: "100%" }}
 							alt="Niksar | Seymenli Taksi"
 						/>
@@ -144,11 +149,11 @@ export default function GalleryContainer() {
 
 					<Carousel.Slide>
 						<Image
-							src={"/images/taksi-10.jpg"}
+							src={"images/taksi-10.jpg"}
+							loader={imageLoader}
 							width={0}
 							height={0}
 							sizes="100vw"
-							objectFit="cover"
 							style={{ width: "100%", height: "100%" }}
 							alt="Niksar | Seymenli Taksi"
 						/>

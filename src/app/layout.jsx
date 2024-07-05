@@ -11,9 +11,28 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+	applicationName: "Niksar Taksi",
 	title: "Niksar Taksi",
 	description:
 		"Niksar ve Tokat bölgesinde 7/24 hizmet veren, güvenli ve konforlu ulaşım sağlayan taksi hizmetleri.",
+	verification: {
+		google: "VZaf5mUSAh-bCD1OdcxcRrWM8vu7BTbvYJn4EQ15ixs",
+	},
+	keywords: [
+		"Niksar taksi",
+		"Tokat",
+		"Niksar şehir içi ulaşım",
+		"Güvenilir Niksar taksi",
+		"Ekonomik taksi Niksar",
+		"7/24 Niksar taksi hizmeti",
+		"Niksar özel taksi",
+		"Niksar ucuz taksi",
+		"Niksar taksi fiyatları",
+		"Niksar taksi rezervasyonu",
+		"Niksar taksi çağırma",
+		"Seymenli Taksi",
+	],
+	creator: "Selçuk Giray",
 };
 
 // Mantine Theme
