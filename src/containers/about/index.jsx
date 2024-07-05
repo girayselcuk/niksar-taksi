@@ -34,25 +34,27 @@ export default function AboutContainer() {
 
 				<div className="about-left-body">
 					<Grid>
-						<GridCol span={6}>
+						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
 							<AboutCard
 								icon={<IconPhone />}
 								title="05421133496"
 							/>
 						</GridCol>
-						<GridCol span={6}>
+						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
 							<AboutCard
 								icon={<IconMapPin />}
 								title="Niksar/Tokat"
 							/>
 						</GridCol>
-						<GridCol span={6}>
+						<GridCol span={{ base: 12, xs: 12, sm: 6 }}>
 							<AboutCard
 								icon={<IconCar />}
 								title="Konforlu Araç ile Rahat Yolculuk"
 							/>
 						</GridCol>
-						<GridCol span={6}>
+						<GridCol
+							span={{ base: 12, xs: 12, sm: 6, md: 6, lg: 6 }}
+						>
 							<AboutCard
 								icon={<IconClock />}
 								title="7/24 Hizmet ile Kesintisiz Ulaşım"
