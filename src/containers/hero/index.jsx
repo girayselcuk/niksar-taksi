@@ -13,7 +13,7 @@ export default function HeroContainer() {
 					order={1}
 					size="h1"
 				>
-					Güvenli ve Hızlı Ulaşımın Adresi 😊
+					Niksar Taksi - Güvenli ve Hızlı Ulaşımın Adresi 😊
 				</Title>
 				<Text c="gray">
 					Şehrin her köşesine güvenle ve konforla ulaşmanın keyfini
@@ -22,11 +22,13 @@ export default function HeroContainer() {
 				</Text>
 				<Link href="tel:05454560060">
 					<Button
+						c="dark"
 						color="yellow"
 						mt="md"
 						leftSection={<IconPhone aria-hidden="true" />}
 						aria-label="Tıkla ve hemen ara"
 						type="button"
+						size="md"
 					>
 						Tıkla Hemen Ara
 					</Button>

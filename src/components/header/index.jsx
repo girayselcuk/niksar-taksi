@@ -1,4 +1,4 @@
-import { Burger, Button, Container } from "@mantine/core";
+import { Container } from "@mantine/core";
 import "./header.scss";
 import Image from "next/image";
 import TaxiLogo from "@/assets/icons/taxi.svg";

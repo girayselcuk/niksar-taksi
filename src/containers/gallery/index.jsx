@@ -3,7 +3,7 @@ import "./gallery.scss";
 import { Carousel } from "@mantine/carousel";
 import Image from "next/image";
 
-import { Button, Text, Title } from "@mantine/core";
+import { Text, Title } from "@mantine/core";
 
 export default function GalleryContainer() {
 	const imageLoader = ({ src, width, quality }) => {
