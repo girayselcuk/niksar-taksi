@@ -14,7 +14,7 @@ export default function Footer() {
 					size="sm"
 				>
 					&copy; Niksar Taksi, 2024. Tüm hakları saklıdır{" "}
-					<Link href="tel:05421133496">
+					<Link href="tel:+905421133496">
 						<strong>Selçuk Giray</strong>
 					</Link>
 					.

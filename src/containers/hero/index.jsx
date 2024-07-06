@@ -20,7 +20,7 @@ export default function HeroContainer() {
 					çıkarın. Taksi hizmetlerimizle yolculuklarınız artık çok
 					daha kolay ve hızlı!
 				</Text>
-				<Link href="tel:05454560060">
+				<Link href="tel:+905454560060">
 					<Button
 						c="dark"
 						color="yellow"
