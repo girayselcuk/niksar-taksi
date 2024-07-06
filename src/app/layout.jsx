@@ -14,7 +14,7 @@ export const metadata = {
 	applicationName: "Niksar Taksi",
 	title: "Niksar Taksi",
 	description:
-		"Niksar ve Tokat bölgesinde 7/24 hizmet veren, güvenli ve konforlu ulaşım sağlayan taksi hizmetleri.",
+		"Niksar Taksi, Niksar ve Tokat bölgesinde 7/24 hizmet veren, güvenli ve konforlu ulaşım sağlayan taksi hizmetleri.",
 	verification: {
 		google: "VZaf5mUSAh-bCD1OdcxcRrWM8vu7BTbvYJn4EQ15ixs",
 	},
