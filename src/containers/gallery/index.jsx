@@ -21,7 +21,7 @@ export default function GalleryContainer() {
 					order={2}
 					size="h2"
 				>
-					Resimler
+					Taksimiz
 				</Title>
 
 				<Text c="gray">
