@@ -35,6 +35,8 @@ export default function GalleryContainer() {
 					slideSize={{ base: "100%", sm: "50%", md: "33.333333%" }}
 					slideGap={{ base: 0, sm: "md" }}
 					loop
+					nextControlProps={{ "aria-label": "Next Slide" }}
+					previousControlProps={{ "aria-label": "Previous Slide" }}
 				>
 					<Carousel.Slide>
 						<Image

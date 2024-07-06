@@ -12,16 +12,16 @@ export default function NavigationMenu() {
 				Anasayfa
 			</a>
 			<a
-				href="#about"
-				className="navigation-menu-item"
-			>
-				Hakkımızda
-			</a>
-			<a
 				href="#gallery"
 				className="navigation-menu-item"
 			>
 				Resimler
+			</a>
+			<a
+				href="#about"
+				className="navigation-menu-item"
+			>
+				Hakkımızda
 			</a>
 		</nav>
 	);

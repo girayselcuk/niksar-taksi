@@ -24,7 +24,9 @@ export default function HeroContainer() {
 					<Button
 						color="yellow"
 						mt="md"
-						leftSection={<IconPhone />}
+						leftSection={<IconPhone aria-hidden="true" />}
+						aria-label="Tıkla ve hemen ara"
+						type="button"
 					>
 						Tıkla Hemen Ara
 					</Button>

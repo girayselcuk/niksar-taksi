@@ -7,8 +7,8 @@ export default function Home() {
 	return (
 		<Container size="lg">
 			<HeroContainer />
-			<AboutContainer />
 			<GalleryContainer />
+			<AboutContainer />
 		</Container>
 	);
 }
