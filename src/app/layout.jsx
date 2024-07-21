@@ -18,6 +18,7 @@ export const metadata = {
 	verification: {
 		google: "VZaf5mUSAh-bCD1OdcxcRrWM8vu7BTbvYJn4EQ15ixs",
 	},
+
 	keywords: [
 		"Niksar taksi",
 		"Tokat",
@@ -44,6 +45,13 @@ const theme = createTheme({
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+			<head>
+				<script
+					async
+					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7361424683870524"
+					crossorigin="anonymous"
+				></script>
+			</head>
 			<body className={inter.className}>
 				<MantineProvider theme={theme}>
 					<div className="root-layout">
