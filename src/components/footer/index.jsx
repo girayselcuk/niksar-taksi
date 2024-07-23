@@ -1,4 +1,4 @@
-import { Container, Text } from "@mantine/core";
+import { Container, Stack, Text } from "@mantine/core";
 import "./footer.scss";
 import Link from "next/link";
 
@@ -13,11 +13,10 @@ export default function Footer() {
 					c="gray"
 					size="sm"
 				>
-					&copy; Niksar Taksi, 2024. Tüm hakları saklıdır{" "}
+					&copy; 2024 Niksar Taksi. Tüm hakları saklıdır.{" "}
 					<Link href="tel:+905421133496">
 						<strong>Selçuk Giray</strong>
 					</Link>
-					.
 				</Text>
 			</Container>
 		</footer>

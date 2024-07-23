@@ -7,11 +7,6 @@ import { Text, Title } from "@mantine/core";
 import { images } from "@/data/images";
 
 export default function GalleryContainer() {
-	const imageLoader = ({ src, width, quality }) => {
-		return `https://niksartaksi.com.tr/${src}?w=${width}&q=${
-			quality || 75
-		}`;
-	};
 	return (
 		<section
 			id="gallery"
@@ -43,14 +38,17 @@ export default function GalleryContainer() {
 							key={image.id}
 							style={{ position: "relative" }}
 						>
-							<Image
-								loader={imageLoader}
-								src={image.path}
-								width={0}
-								height={300}
-								style={{ width: "100%", height: "100%" }}
-								alt={image.alt}
-							/>
+							<picture>
+								<Image
+									src={image.path}
+									width={1024}
+									height={1024}
+									style={{ width: "100%", height: "100%" }}
+									alt={image.alt}
+									loading="lazy"
+									quality={75}
+								/>
+							</picture>
 						</Carousel.Slide>
 					))}
 				</Carousel>
